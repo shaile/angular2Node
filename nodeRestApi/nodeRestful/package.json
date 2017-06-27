@@ -1,0 +1,29 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "Node restfulApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaile/nodeRestApi.git"
+  },
+  "keywords": [
+    "nodeRestApi"
+  ],
+  "author": "shaile.martin@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaile/nodeRestApi/issues"
+  },
+  "homepage": "https://github.com/shaile/nodeRestApi#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "hapi": "^16.4.3",
+    "joi": "^10.6.0",
+    "mysql": "^2.13.0"
+  }
+}

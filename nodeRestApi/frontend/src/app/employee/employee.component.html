@@ -1,0 +1,22 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th >Name</th>
+      <th >Address</th>
+      <th >Email</th>
+      <th >Phone</th>
+      <th> Edit</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor='let employee of employees'>
+      <td>{{employee.name}}</td>
+      <td>{{employee.address}}</td>
+      <td>{{employee.email}}</td>
+      <td>{{employee.phone}}</td>
+      <td><span class="glyphicon glyphicon-edit" style="cursor:pointer" [routerLink]="['/create:']"></span></td>
+      <td><span class="glyphicon glyphicon-trash"  (click)="deletUser(employee.id)" style="cursor:pointer"></span></td>
+    </tr>
+  </tbody>
+</table>
